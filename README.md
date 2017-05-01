@@ -1,8 +1,10 @@
 #Spring Boot Docker Plugin Parent POM
-A Spring Boot 2.0.0.BUILD-SNAPSHOT Parent POM with fabric8 maven-docker-plugin. 
-With the Docker Plugin you can create a runtime container for your spring boot application.
+
+A Spring Boot 2.0.0.BUILD-SNAPSHOT parent POM with fabric8 maven-docker-plugin. 
+With the Docker plugin you can create a runtime container for your spring boot application.
+
 ##Maven Properties
-You can override some properties in your child POM to change versions of Spring Boot and
+You can overwrite some properties in your child POM to change versions of Spring Boot and
 maven-docker-plugin. These are the rewritable properties:
 
 Property | Description

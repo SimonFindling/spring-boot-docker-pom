@@ -99,6 +99,19 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>fisi.repo</id>
+            <name>Fisi Internal Repository</name>
+            <url>http://localhost:8081/repository/fisi-maven-repository</url>
+        </repository>
+        <snapshotRepository>
+            <id>fisi.repo</id>
+            <name>Fisi Snapshot Repository</name>
+            <url>http://localhost:8081/repository/fisi-maven-repository</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spring-snapshots</id>
@@ -115,6 +128,10 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>Fisi Repository</id>
+            <url>http://localhost:8081/repository/fisi-maven-repository</url>
         </repository>
     </repositories>
     <pluginRepositories>
